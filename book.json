@@ -23,7 +23,7 @@
   ],
   "pluginsConfig": {
     "edit-link": {
-        "base": "https://github.com/skyao-learning/linkerd/edit/master",
+        "base": "https://github.com/skyao/learning-linkerd/edit/master",
         "label": "Edit"
     }
   },
