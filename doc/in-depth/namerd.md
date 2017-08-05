@@ -16,13 +16,6 @@ namerd 是为多个 linkerd 实例管理路由的服务。它通过存储 [dtabs
 
 在 namerd 中存储 dtabs 的另一个优点是可以使用 namerd 的 API 或命令行工具动态更新这些 dtabs。这样可以执行诸如canary，staging或 blue-green 部署等操作，而无需重新启动任何 linkerd。
 
-MORE INFORMATION
-To learn more about namerd, its setup, and its operation, check out Buoyant’s blog post on dynamic routing.
-
-To configure your own namerd, head over to the namerd config documention. Also check out namerctl, our open source tool for controlling namerd.
-
-For a step-by-step walkthrough of running namerd in Kubernetes to facilitate continuous deployment, check out Buoyant’s blog post, Continuous deployment via traffic shifting.
-
 ## 更多信息
 
 要了解有关 namerd，搭建及其运维的更多信息，请查看 [Booyant的动态路由博客文章](https://blog.buoyant.io/2016/05/04/real-world-microservices-when-services-stop-playing-well-and-start-getting-real/index.html?__hstc=249056664.3c6b78fb9cb62c68eaaac6558454a06e.1501146055259.1501834234283.1501842962030.12&__hssc=249056664.1.1501842962030&__hsfp=4035021484#dynamic-routing-with-namerd)。
